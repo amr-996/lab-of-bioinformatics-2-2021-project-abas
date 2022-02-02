@@ -25,7 +25,7 @@ for line in ids:
 #print(l)
 for i in l:
     #k=[]
-    ss=open(""+i+".dssp") # observed protein secondry structure conformations(output of dssp ) 
+    ss=open(""+i+".dssp") # path + observed protein secondry structure conformations(output of dssp ) 
     for line in ss :
        if line[0]!=">":
         s2=( line.rstrip())
